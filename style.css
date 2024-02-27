@@ -374,12 +374,7 @@ input {
     word-wrap: break-word; 
     transition: width 0.3s, height 0.3s; /* Add smooth transition effect */
   }
-  
-/* Increase size on hover */
-.expand:hover {
-    width: 600px;
-    height: 40px;
-}
+
 
 .cu{
     display: flex;
