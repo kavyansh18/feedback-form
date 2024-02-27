@@ -33,24 +33,117 @@
       </div>
     </div>
     <div class="center">
-      <div class="variant">
-        <div class="hv">Soap Variant</div>
-        <!-- Create a select dropdown -->
-        <select name="variant" id="mySelect">
-          <option value="option1">Vanilla</option>
-          <option value="option2">Patchouli</option>
-          <option value="option3">Sandal-Wood</option>
-        </select>
-      </div>
-      <div class="satisfaction">
-        <div class="hv">Overall Satisfaction:How satisfied are you with the B&O soap?</div>
-        <!-- Create a select dropdown -->
-        <select name="variant" id="mySelect">
-          <option value="option1">Very Satisfied</option>
-          <option value="option2">Satisfied</option>
-          <option value="option3">Neutral</option>
-          <option value="option4">Dissatisfied</option>
-        </select>
+        <div class="qs">
+            <div class="variant">
+                <div class="hv">Soap Variant</div>
+                <!-- Create a select dropdown -->
+                <select name="variant" id="mySelect">
+                <option value="option1">Vanilla</option>
+                <option value="option2">Patchouli</option>
+                <option value="option3">Sandal-Wood</option>
+                </select>
+            </div>
+            <div class="satisfaction">
+                <div class="hs">Overall Satisfaction: How satisfied are you with the B&O soap?</div>
+                <!-- Create a select dropdown -->
+                <select name="satisfaction" id="mySelect">
+                <option value="option1">Highly Satisfied</option>
+                <option value="option2">Satisfied</option>
+                <option value="option3">Neutral</option>
+                <option value="option4">Highly Dissatisfied</option>
+                </select>
+            </div>
+            <div class="performance">
+                <div class="hp">Product Performance:
+                    Effectiveness in Cleaning</div>
+                <!-- Create a select dropdown -->
+                <select name="performance" id="mySelect">
+                <option value="option1">Excellent</option>
+                <option value="option2">Good</option>
+                <option value="option3">Average</option>
+                <option value="option4">Below Average</option>
+                </select>
+            </div>
+            <div class="fragnance">
+                <div class="hf">Fragrance:
+                    Please note how long that fragnace remains on body.</div>
+                <!-- Create a select dropdown -->
+                <select name="fragnance" id="mySelect">
+                <option value="option1">Pleasant</option>
+                <option value="option2">Neutral</option>
+                <option value="option3">Unpleasant</option>
+                </select>
+            </div>
+            <div class="feel">
+                <div class="hf">Skin feel after use:</div>
+                <!-- Create a select dropdown -->
+                <select name="feel" id="mySelect">
+                <option value="option1">Soft and Smooth</option>
+                <option value="option2">Comfy</option>
+                <option value="option3">No change</option>
+                <option value="option4">Dry</option>
+                <option value="option5">Irritated</option>
+                </select>
+            </div>
+            <div class="wiping">
+                <div class="hf">Fragnance on skin after wiping lasted for?</div>
+                <!-- Create a select dropdown -->
+                <select name="wiping" id="mySelect">
+                <option value="option1">30 minutes</option>
+                <option value="option2">20 minutes</option>
+                <option value="option3">10 minutes</option>
+                <option value="option4">No Fragnance</option>
+                <option value="option5">More than 30 minutes</option>
+                </select>
+            </div>
+            <div class="size">
+                <div class="hf">What do yo think about the size of soap?</div>
+                <!-- Create a select dropdown -->
+                <select name="size" id="mySelect">
+                <option value="option1">Perfect</option>
+                <option value="option2">Okay</option>
+                <option value="option3">Small</option>
+                </select>
+            </div>
+            <div class="test">
+                <div class="hf">Can you povide a video testimonial?
+                    Genuine Feedback only</div>
+                <!-- Create a select dropdown -->
+                <select name="size" id="mySelect">
+                <option value="option1">Yes</option>
+                <option value="option2">No</option>
+                </select>
+            </div>
+            <div class="improve">
+                <div class="hf">Suggestions for Improvement:
+                    How can we improve our soap or services?</div>
+                <form name="improvements">
+                    <input class="expand" type="text" id="textInput" name="textInput">
+                </form>
+            </div>
+            <div class="contact">
+                <div class="cu">
+                    <img width="350px" src="contact.png" alt="">
+                    <div>
+                        <div class="hf">Please share your contact information</div>
+                        <div class="container">
+                            <form>
+                              <label for="name">Name:</label>
+                              <input type="text" id="name" name="name" placeholder="Your name.." required>
+                          
+                              <label for="phone">Phone Number:</label>
+                              <input type="text" id="phone" name="phone" placeholder="Your phone number.." required>
+                          
+                              <label for="email">Email:</label>
+                              <input type="text" id="email" name="email" placeholder="Your email.." required>
+                            </form>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            <div class="center">
+                <a class="btn2" href="form.html">Submit</a>
+            </div>
     </div>
   </body>
 </html>

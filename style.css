@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
     width: 10px; 
   }
  body::-webkit-scrollbar-track {
-    background-color: rgb(128, 188, 189); 
+    background-color: rgb(181, 192, 208); 
     }
  body::-webkit-scrollbar-thumb {
     background-color:rgb(0, 129, 112);
@@ -24,7 +24,7 @@ body{
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(128, 188, 189);
+    background-color: rgb(181, 192, 208);
 }
 
 .navbar{
@@ -224,6 +224,9 @@ body{
     background-color: rgb(249, 247, 201, 0.7);
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+    color: rgb(22, 53, 53);
+    transition: all 0.4s ease;
 }
 
 select {
@@ -243,12 +246,194 @@ select option {
   /* Style the select dropdown when it's focused */
 select:focus {
     outline: none; 
-    border-color: rgb(24, 61, 61);
-    box-shadow: 0 0 5px rgb(24, 61, 61); 
+    border-color: rgb(170, 217, 187);
+    box-shadow: 0 0 5px rgb(170, 217, 187); 
   }
 
 .hv{
     font-family: "Protest Riot", sans-serif;
     font-size: 25px;
     margin-bottom: 15px;
+  }
+
+.hs{
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.satisfaction{
+    color: rgb(22, 53, 53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    padding: 10px;
+    background-color: rgb(249, 247, 201, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+    transition: all 0.4s ease;
+}
+
+.qs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hp , .hf{
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.performance, .fragnance, .feel, .wiping, .size, .test, .improve, .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    padding: 10px;
+    background-color: rgb(249, 247, 201, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+    color: rgb(22, 53, 53);
+    transition: all 0.4s ease;
+}
+
+.performance:hover{
+    width: 70vw;
+    color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(22, 53, 53);
+    padding: 20px;
+}
+.fragnance:hover{
+    width: 70vw;
+    color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(22, 53, 53);
+    padding: 20px;
+}
+.variant:hover{
+    width: 70vw;
+    color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(22, 53, 53);
+    padding: 20px;
+}
+.size:hover{
+    width: 70vw;
+    color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(22, 53, 53);
+    padding: 20px;
+}
+.wiping:hover{
+    width: 70vw;
+    color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(22, 53, 53);
+    padding: 20px;
+}
+.feel:hover{
+    width: 70vw;
+    color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(22, 53, 53);
+    padding: 20px;
+}
+.satisfaction:hover{
+    width: 70vw;
+    color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(22, 53, 53);
+    padding: 20px;
+}
+.test:hover{
+    width: 70vw;
+    color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(22, 53, 53);
+    padding: 20px;
+}
+.improve:hover{
+    width: 70vw;
+    color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(22, 53, 53);
+    padding: 20px;
+}
+
+ /* Style for the input field */
+ input[type="text"] {
+    padding: 10px;
+    border: 1px solid rgb(170, 217, 187);
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+input {
+    width: 200px;
+    height: 30px;
+    word-wrap: break-word; 
+    transition: width 0.3s, height 0.3s; /* Add smooth transition effect */
+  }
+  
+/* Increase size on hover */
+.expand:hover {
+    width: 600px;
+    height: 40px;
+}
+
+.cu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Form container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid rgb(22, 53, 53);
+    border-radius: 5px;
+  }
+  
+  /* Form input fields */
+  .container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(22, 53, 53);
+    border-radius: 5px;
+  }
+  
+  /* Form labels */
+  .container label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+    color: rgb(22, 53, 53);
+  }
+
+  .btn2{
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 40px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 23px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bold;
+  }
+  
+  .btn2:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
   }
