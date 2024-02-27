@@ -452,11 +452,10 @@ input {
     .tagline{
         font-size: 10px;
         letter-spacing: 0;
-        margin-left: 20px;
     }
     .handles img{
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
         padding: 0;
         margin: 0;
     }
