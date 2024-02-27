@@ -365,7 +365,7 @@ select:focus {
     border: 1px solid rgb(170, 217, 187);
     border-radius: 5px;
     font-size: 16px;
-    width: 300px;
+    width: 35vw;
     box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 input {
@@ -437,3 +437,38 @@ input {
     box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
     transform: scale(1.05) rotate(-1deg);
   }
+
+@media screen and (max-width:1300px){
+    .navbar{
+        height: 45px;
+    }
+    .navbar img{
+        width: 33px;
+        margin-left: 10px;
+    }
+    .name{
+        font-size: 9px;
+    }
+    .tagline{
+        font-size: 10px;
+        letter-spacing: 0;
+        margin-left: 20px;
+    }
+    .handles img{
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        margin: 0;
+    }
+    .handles{
+        padding: 0;
+        margin: 0px 12px;
+    }
+    .expand{
+        width: 10px;
+    }
+    .cu img{
+        width: 0;
+        opacity: 0;
+    }
+}
