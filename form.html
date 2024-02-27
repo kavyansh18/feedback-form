@@ -39,6 +39,7 @@
                 <div class="hv">Soap Variant</div>
                 <!-- Create a select dropdown -->
                 <select name="variant" id="mySelect">
+                <option value="" selected disabled>Select an option</option>
                 <option value="option1">Vanilla</option>
                 <option value="option2">Patchouli</option>
                 <option value="option3">Sandal-Wood</option>
@@ -48,6 +49,7 @@
                 <div class="hs">Overall Satisfaction: How satisfied are you with the B&O soap?</div>
                 <!-- Create a select dropdown -->
                 <select name="satisfaction" id="mySelect">
+                <option value="" selected disabled>Select an option</option>
                 <option value="option1">Highly Satisfied</option>
                 <option value="option2">Satisfied</option>
                 <option value="option3">Neutral</option>
@@ -59,6 +61,7 @@
                     Effectiveness in Cleaning</div>
                 <!-- Create a select dropdown -->
                 <select name="performance" id="mySelect">
+                <option value="" selected disabled>Select an option</option>
                 <option value="option1">Excellent</option>
                 <option value="option2">Good</option>
                 <option value="option3">Average</option>
@@ -70,6 +73,7 @@
                     Please note how long that fragnace remains on body.</div>
                 <!-- Create a select dropdown -->
                 <select name="fragnance" id="mySelect">
+                <option value="" selected disabled>Select an option</option>
                 <option value="option1">Pleasant</option>
                 <option value="option2">Neutral</option>
                 <option value="option3">Unpleasant</option>
@@ -79,6 +83,7 @@
                 <div class="hf">Skin feel after use:</div>
                 <!-- Create a select dropdown -->
                 <select name="feel" id="mySelect">
+                <option value="" selected disabled>Select an option</option>
                 <option value="option1">Soft and Smooth</option>
                 <option value="option2">Comfy</option>
                 <option value="option3">No change</option>
@@ -90,6 +95,7 @@
                 <div class="hf">Fragnance on skin after wiping lasted for?</div>
                 <!-- Create a select dropdown -->
                 <select name="wiping" id="mySelect">
+                <option value="" selected disabled>Select an option</option>
                 <option value="option1">30 minutes</option>
                 <option value="option2">20 minutes</option>
                 <option value="option3">10 minutes</option>
@@ -101,6 +107,7 @@
                 <div class="hf">What do yo think about the size of soap?</div>
                 <!-- Create a select dropdown -->
                 <select name="size" id="mySelect">
+                <option value="" selected disabled>Select an option</option>
                 <option value="option1">Perfect</option>
                 <option value="option2">Okay</option>
                 <option value="option3">Small</option>
@@ -111,6 +118,7 @@
                     Genuine Feedback only</div>
                 <!-- Create a select dropdown -->
                 <select name="size" id="mySelect">
+                <option value="" selected disabled>Select an option</option>
                 <option value="option1">Yes</option>
                 <option value="option2">No</option>
                 </select>
@@ -128,7 +136,7 @@
                     <div>
                         <div class="hf">Please share your contact information</div>
                         <div class="container">
-                            <form>
+                            <form action="POST">
                               <label for="name">Name:</label>
                               <input type="text" id="name" name="name" placeholder="Your name.." required>
                           
