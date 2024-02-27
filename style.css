@@ -465,4 +465,7 @@ input {
         width: 0;
         opacity: 0;
     }
+    .satisfaction ,.performance, .fragnance, .feel, .wiping, .size, .test, .improve, .contact, .variant{
+        width: 70vw;
+    }
 }
