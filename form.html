@@ -11,171 +11,172 @@
 
 <body>
   <div class="vdo">
-    <video src="bg.mp4" autoplay loop muted playsinline></video>
+    <video id="myVideo" src="bg.mp4" autoplay loop muted playsinline></video>
   </div>
   <div class="main">
-  <div class="navbar">
-    <div class="flex">
-      <img src="logonobg.png" alt="" />
-      <div class="name">Busy and Organised</div>
-    </div>
-    <div class="tagline">LOOK GOOD, FEEL GOOD</div>
-    <div class="handles">
-      <a href="https://www.instagram.com/busyandorganised/" target="_blank"> <img src="ig.svg" alt="" /></a>
-      <a href="https://www.linkedin.com/company/busy-and-organised/?viewAsMember=true" target="_blank"> <img
-          src="linkedin.svg" alt="" /></a>
-      <a href="mailto:busyandorganised@gmail.com" target="_blank"> <img src="email.svg" alt="" /></a>
-      <a href="https://www.facebook.com/profile.php?id=61556837900160" target="_blank"> <img src="fb.svg" alt="" /></a>
-    </div>
-  </div>
-  <div class="center">
-    <div class="text1">
-      <div class="heading1">B&O Soap Feedback Form</div>
-      <div class="content1">
-        Thank you for choosing B&O soap! We appreciate you for taking part in
-        our initial journey. These Soap are organic and made from essential
-        oils with cold pressed process. To breif you more about cold pressed
-        soap making process and its benefits than regular soaps, we have made
-        few pointers, we hope you like these facts.
+    <div class="navbar">
+      <div class="flex">
+        <img src="logonobg.png" alt="" />
+        <div class="name">Busy and Organised</div>
+      </div>
+      <div class="tagline">LOOK GOOD, FEEL GOOD</div>
+      <div class="handles">
+        <a href="https://www.instagram.com/busyandorganised/" target="_blank"> <img src="ig.svg" alt="" /></a>
+        <a href="https://www.linkedin.com/company/busy-and-organised/?viewAsMember=true" target="_blank"> <img
+            src="linkedin.svg" alt="" /></a>
+        <a href="mailto:busyandorganised@gmail.com" target="_blank"> <img src="email.svg" alt="" /></a>
+        <a href="https://www.facebook.com/profile.php?id=61556837900160" target="_blank"> <img src="fb.svg"
+            alt="" /></a>
       </div>
     </div>
-  </div>
-  <div class="center">
-    <div class="qs">
-      <form name="submit-to-google-sheet">
-        <div class="variant">
-          <div class="hv">Soap Variant</div>
-          <!-- Create a select dropdown -->
-          <select name="variant" required>
-            <option value="" selected disabled>Select an option</option>
-            <option value="Vanilla">Vanilla</option>
-            <option value="Patchouli">Patchouli</option>
-            <option value="Sandal-Wood">Sandal-Wood</option>
-          </select>
+    <div class="center">
+      <div class="text1">
+        <div class="heading1">B&O Soap Feedback Form</div>
+        <div class="content1">
+          Thank you for choosing B&O soap! We appreciate you for taking part in
+          our initial journey. These Soap are organic and made from essential
+          oils with cold pressed process. To breif you more about cold pressed
+          soap making process and its benefits than regular soaps, we have made
+          few pointers, we hope you like these facts.
         </div>
-        <div class="satisfaction">
-          <div class="hs">Overall Satisfaction: How satisfied are you with the B&O soap?</div>
-          <!-- Create a select dropdown -->
-          <select name="satisfaction" required>
-            <option value="" selected disabled>Select an option</option>
-            <option value="Highly Satisfied">Highly Satisfied</option>
-            <option value="opSatisfiedtion2">Satisfied</option>
-            <option value="Neutral">Neutral</option>
-            <option value="Highly Dissatisfied">Highly Dissatisfied</option>
-          </select>
-        </div>
-        <div class="performance">
-          <div class="hp">Product Performance:
-            Effectiveness in Cleaning</div>
-          <!-- Create a select dropdown -->
-          <select name="performance" required>
-            <option value="" selected disabled>Select an option</option>
-            <option value="Excellent">Excellent</option>
-            <option value="Good">Good</option>
-            <option value="Average">Average</option>
-            <option value="Below Average">Below Average</option>
-          </select>
-        </div>
-        <div class="fragnance">
-          <div class="hf">Fragrance:
-            Please note how long that fragnace remains on body.</div>
-          <!-- Create a select dropdown -->
-          <select name="fragnance" required>
-            <option value="" selected disabled>Select an option</option>
-            <option value="Pleasant">Pleasant</option>
-            <option value="Neutral">Neutral</option>
-            <option value="Unpleasant">Unpleasant</option>
-          </select>
-        </div>
-        <div class="feel">
-          <div class="hf">Skin feel after use:</div>
-          <!-- Create a select dropdown -->
-          <select name="feel" required>
-            <option value="" selected disabled>Select an option</option>
-            <option value="Soft and Smooth">Soft and Smooth</option>
-            <option value="Comfy">Comfy</option>
-            <option value="No change">No change</option>
-            <option value="Dry">Dry</option>
-            <option value="Irritated">Irritated</option>
-          </select>
-        </div>
-        <div class="wiping">
-          <div class="hf">Fragnance on skin after wiping lasted for?</div>
-          <!-- Create a select dropdown -->
-          <select name="wiping" required>
-            <option value="" selected disabled>Select an option</option>
-            <option value="30 minutes">30 minutes</option>
-            <option value="20 minutes">20 minutes</option>
-            <option value="10 minutes">10 minutes</option>
-            <option value="No Fragnance">No Fragnance</option>
-            <option value="More than 30 minutes">More than 30 minutes</option>
-          </select>
-        </div>
-        <div class="size">
-          <div class="hf">What do yo think about the size of soap?</div>
-          <!-- Create a select dropdown -->
-          <select name="size" required>
-            <option value="" selected disabled>Select an option</option>
-            <option value="Perfect">Perfect</option>
-            <option value="Okay">Okay</option>
-            <option value="Small">Small</option>
-          </select>
-        </div>
-        <div class="test">
-          <div class="hf">Can you provide a video testimonial?
-            Genuine Feedback only</div>
-          <!-- Create a select dropdown -->
-          <select name="test" required>
-            <option value="" selected disabled>Select an option</option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-          </select>
-        </div>
-        <div class="improve">
-          <div class="hf">Suggestions for Improvement:
-            How can we improve our soap or services?</div>
-          <input class="expand" type="text" name="improve" required>
-        </div>
-        <div class="contact">
-          <div class="cu">
-            <img width="350px" src="contact.png" alt="">
-            <div>
-              <div class="hf">Please share your contact information</div>
-              <div class="container">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" autocomplete="off" required>
+      </div>
+    </div>
+    <div class="center">
+      <div class="qs">
+        <form name="submit-to-google-sheet">
+          <div class="variant">
+            <div class="hv">Soap Variant</div>
+            <!-- Create a select dropdown -->
+            <select name="variant" required>
+              <option value="" selected disabled>Select an option</option>
+              <option value="Vanilla">Vanilla</option>
+              <option value="Patchouli">Patchouli</option>
+              <option value="Sandal-Wood">Sandal-Wood</option>
+            </select>
+          </div>
+          <div class="satisfaction">
+            <div class="hs">Overall Satisfaction: How satisfied are you with the B&O soap?</div>
+            <!-- Create a select dropdown -->
+            <select name="satisfaction" required>
+              <option value="" selected disabled>Select an option</option>
+              <option value="Highly Satisfied">Highly Satisfied</option>
+              <option value="opSatisfiedtion2">Satisfied</option>
+              <option value="Neutral">Neutral</option>
+              <option value="Highly Dissatisfied">Highly Dissatisfied</option>
+            </select>
+          </div>
+          <div class="performance">
+            <div class="hp">Product Performance:
+              Effectiveness in Cleaning</div>
+            <!-- Create a select dropdown -->
+            <select name="performance" required>
+              <option value="" selected disabled>Select an option</option>
+              <option value="Excellent">Excellent</option>
+              <option value="Good">Good</option>
+              <option value="Average">Average</option>
+              <option value="Below Average">Below Average</option>
+            </select>
+          </div>
+          <div class="fragnance">
+            <div class="hf">Fragrance:
+              Please note how long that fragnace remains on body.</div>
+            <!-- Create a select dropdown -->
+            <select name="fragnance" required>
+              <option value="" selected disabled>Select an option</option>
+              <option value="Pleasant">Pleasant</option>
+              <option value="Neutral">Neutral</option>
+              <option value="Unpleasant">Unpleasant</option>
+            </select>
+          </div>
+          <div class="feel">
+            <div class="hf">Skin feel after use:</div>
+            <!-- Create a select dropdown -->
+            <select name="feel" required>
+              <option value="" selected disabled>Select an option</option>
+              <option value="Soft and Smooth">Soft and Smooth</option>
+              <option value="Comfy">Comfy</option>
+              <option value="No change">No change</option>
+              <option value="Dry">Dry</option>
+              <option value="Irritated">Irritated</option>
+            </select>
+          </div>
+          <div class="wiping">
+            <div class="hf">Fragnance on skin after wiping lasted for?</div>
+            <!-- Create a select dropdown -->
+            <select name="wiping" required>
+              <option value="" selected disabled>Select an option</option>
+              <option value="30 minutes">30 minutes</option>
+              <option value="20 minutes">20 minutes</option>
+              <option value="10 minutes">10 minutes</option>
+              <option value="No Fragnance">No Fragnance</option>
+              <option value="More than 30 minutes">More than 30 minutes</option>
+            </select>
+          </div>
+          <div class="size">
+            <div class="hf">What do yo think about the size of soap?</div>
+            <!-- Create a select dropdown -->
+            <select name="size" required>
+              <option value="" selected disabled>Select an option</option>
+              <option value="Perfect">Perfect</option>
+              <option value="Okay">Okay</option>
+              <option value="Small">Small</option>
+            </select>
+          </div>
+          <div class="test">
+            <div class="hf">Can you provide a video testimonial?
+              Genuine Feedback only</div>
+            <!-- Create a select dropdown -->
+            <select name="test" required>
+              <option value="" selected disabled>Select an option</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+          <div class="improve">
+            <div class="hf">Suggestions for Improvement:
+              How can we improve our soap or services?</div>
+            <input class="expand" type="text" name="improve" required>
+          </div>
+          <div class="contact">
+            <div class="cu">
+              <img width="350px" src="contact.png" alt="">
+              <div>
+                <div class="hf">Please share your contact information</div>
+                <div class="container">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" autocomplete="off" required>
 
-                <label for="phone">Phone Number:</label>
-                <input type="text" id="phone" name="phone" autocomplete="off" required>
+                  <label for="phone">Phone Number:</label>
+                  <input type="text" id="phone" name="phone" autocomplete="off" required>
 
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" autocomplete="off" required>
+                  <label for="email">Email:</label>
+                  <input type="text" id="email" name="email" autocomplete="off" required>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="center">
-          <button class="btn2" type="submit">SUBMIT FORM</button>
-        </div>
-      </form>
+          <div class="center">
+            <button class="btn2" type="submit">SUBMIT FORM</button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
     <script>
       const scriptURL =
         "https://script.google.com/macros/s/AKfycbyJ-h4WUKhhzyQPq1V6tIv7VsxdgwiJVrZR6lnww8Xbm32B8m8HlT5RMiqHfjsqo5hr/exec";
       const form = document.forms["submit-to-google-sheet"];
       const submitButton = form.querySelector('button[type="submit"]');
-    
+
       form.addEventListener("submit", (e) => {
         e.preventDefault();
         // Change button text to "Submitting..."
         submitButton.textContent = "Submitting...";
-        
+
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
           .then((response) => {
             // Reset button text to "Submit Form" after submission is completed
             submitButton.textContent = "Submit Form";
-            
+
             // Check if the response was successful
             if (response.ok) {
               // Redirect to another HTML webpage
@@ -191,9 +192,17 @@
             console.error("Error!", error.message);
           });
       });
-    </script>
-    
 
+      // Function to play the video
+      function playVideo() {
+        var video = document.getElementById("myVideo");
+        video.play();
+      }
+
+      // Autoplay the video when the page is loaded
+      window.onload = function () {
+        playVideo();
+      };
     </script>
 </body>
 
