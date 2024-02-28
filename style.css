@@ -40,6 +40,7 @@ body{
 }
 
 .navbar{
+    position: fixed;
     display: flex;
     align-items: center;  
     justify-content: space-between;
@@ -79,6 +80,7 @@ body{
 }
 
 .text1{
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,10 +109,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin-bottom: 20px;
 }
 
 .knowus{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -426,17 +429,18 @@ input {
 
 @media screen and (max-width:1300px){
     .navbar{
-        height: 45px;
+        height: 60px;
     }
     .navbar img{
-        width: 33px;
-        margin-left: 10px;
+        width: 39px;
+        margin-left: 3px;
     }
     .name{
-        font-size: 9px;
+        font-size: 10px;
     }
     .tagline{
-        font-size: 10px;
+        font-size: 12px;
+        margin-left: 13px;
         letter-spacing: 0;
     }
     .handles img{
