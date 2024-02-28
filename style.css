@@ -1,30 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Kalnia:wght@100..700&family=PT+Sans+Narrow:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Kalnia:wght@100..700&family=PT+Sans+Narrow:wght@400;700&family=Slabo+27px&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Kalnia:wght@100..700&family=PT+Sans+Narrow:wght@400;700&family=Protest+Riot&family=Slabo+27px&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=Barriecito&family=Dancing+Script:wght@400..700&family=Kalnia:wght@100..700&family=PT+Sans+Narrow:wght@400;700&family=Protest+Riot&family=Russo+One&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body::-webkit-scrollbar {
     width: 10px; 
   }
- body::-webkit-scrollbar-track {
-    background-color: rgb(181, 192, 208); 
+body::-webkit-scrollbar-track {
+    background-color: black; 
     }
- body::-webkit-scrollbar-thumb {
-    background-color:rgb(0, 129, 112);
+body::-webkit-scrollbar-thumb {
+    background-color:rgb(174, 148, 93);
     border-radius: 5px; 
   }
-  body::-webkit-scrollbar-thumb:hover {
-    background-color:rgb(0, 129, 112); 
+body::-webkit-scrollbar-thumb:hover {
+    background-color:rgba(111, 94, 56, 1); 
   }
 
 body{
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(181, 192, 208);
+    background-color: black;
 }
 
 .vdo img{
@@ -32,7 +26,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    top: 0;
+    top: 30px;
     left: 0;
     z-index: -1; /* To place it behind other content */
 }
@@ -45,7 +39,7 @@ body{
 .navbar{
     height: 12vh;
     width: 100vw;
-    background-color: rgb(0, 129, 112,0.8);
+    background-color: black;
 }
 
 .navbar img{
@@ -81,17 +75,14 @@ body{
 }
 
 .name{
-    font-family: "Dancing Script", cursive;
+    font-family: "Montserrat", sans-serif;
     font-weight:900;
     font-size: 20px;
-    color: rgb(213, 240, 193);
+    color: rgb(174, 148, 93);
 }
 
-.tagline{
-    font-family: "Archivo", sans-serif;
-    letter-spacing: 8px;
-    font-weight: bold;
-    color: rgb(3, 6, 55);
+.flex img{
+    margin-left: 182px;
 }
 
 .text1{
@@ -101,23 +92,24 @@ body{
     justify-content: center;
     align-items: center;
     width: 78vw;
-    background-color: rgb(170, 217, 187);
+    background-color: rgb(249, 247, 201, 0.7);
     border-radius: 20px;
     padding: 18px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .content1{
-    font-family: "Slabo 27px", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
 .heading1{
     margin-bottom: 12px;
-    font-family: "Anton", sans-serif;
+    font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
-    color: rgb(3, 6, 55);
+    color: black;
+    font-weight: bolder;
     font-size: 23px;
 }
 .center{
@@ -127,8 +119,11 @@ body{
     margin-bottom: 20px;
 }
 
+li{
+    font-weight: bold;
+}
+
 .knowus{
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,27 +136,27 @@ body{
 }
 
 .content2{
-    font-family: "Slabo 27px", serif;
+    font-family: "Montserrat", sans-serif;
     display: flex;
     gap: 4px;
-    font-weight: 600;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(24, 61, 61);
+    color: black;
 }
 
 .clr{
-    color: rgb(117, 14, 33);
-    padding-right: 5px;
-    font-size: 19px;
+    color: black;
+    font-weight: bolder;
+    padding-right: 7px;
+    font-size: 17px;
 }
 
 .heading2{
     margin-bottom: 12px;
-    font-family: "Protest Riot", sans-serif;
-    font-size: 23px;
-    color: rgb(24, 61, 61);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: black;
     
 }
 
@@ -170,11 +165,11 @@ body{
 }
 
 .ku{
-    font-family: "Kalnia", serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold; 
-    letter-spacing: 1px;
-    font-size: 27px;
-    color: rgb(3, 6, 55);
+    text-align: center;
+    font-size: 23px;
+    color: black;
 }
 
 .ingredients{
@@ -190,30 +185,29 @@ body{
 }
 .heading3{
     margin-bottom: 12px;
-    font-family: "Protest Riot", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 23px;
-    color: rgb(24, 61, 61);
+    color: black;
 }
 .subheading3{
-    color: rgb(117, 14, 33);
-    font-family: "Slabo 27px", serif;
+    color: black;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold; 
     font-size: larger;
 }
 
 .content3 li{
-    font-family: "Russo One", sans-serif;
-    color: rgb(83, 92, 145);
+    font-family: "Montserrat", sans-serif;
+    color: black;
 }
 
 .btn {
-  background-color: #c2fbd7;
+  background-color: rgb(249, 247, 201);
   border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
-  color: green;
+  color: black;
   cursor: pointer;
   display: inline-block;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
@@ -227,23 +221,23 @@ body{
 }
 
 .btn:hover {
-  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
 }
 
 
 .variant{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50vw;
     padding: 10px;
-    background-color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(249, 247, 201,0.7);
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     margin-bottom: 15px;
-    color: rgb(22, 53, 53);
+    color: black;
     transition: all 0.4s ease;
 }
 
@@ -251,14 +245,14 @@ select {
     padding: 8px; /* Adjust the padding as needed */
     font-size: 16px; 
     border-radius: 18px;
-    background-color: rgb(170, 217, 187); 
-    color:rgb(24, 61, 61); 
+    background-color: black; 
+    color:rgb(249, 247, 201,0.8); 
   }
 
   /* Style the options inside the select dropdown */
 select option {
-    background-color: rgb(24, 61, 61); 
-    color: rgb(170, 217, 187); 
+    background-color: rgb(249, 247, 201); 
+    color: black; 
   }
 
   /* Style the select dropdown when it's focused */
@@ -269,26 +263,26 @@ select:focus {
   }
 
 .hv{
-    font-family: "Protest Riot", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 25px;
     margin-bottom: 15px;
   }
 
 .hs{
-    font-family: "Protest Riot", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
 .satisfaction{
-    color: rgb(22, 53, 53);
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50vw;
     padding: 10px;
-    background-color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(249, 247, 201,0.7);
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     margin-bottom: 15px;
@@ -302,9 +296,13 @@ select:focus {
     align-items: center;
 }
 .hp , .hf{
-    font-family: "Protest Riot", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     margin-bottom: 15px;
+}
+
+.hv, .hs, .hp, .hf{
+    font-weight: bold;
 }
 
 .performance, .fragnance, .feel, .wiping, .size, .test, .improve, .contact{
@@ -314,57 +312,57 @@ select:focus {
     align-items: center;
     width: 50vw;
     padding: 10px;
-    background-color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(249, 247, 201,0.7);
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     margin-bottom: 15px;
-    color: rgb(22, 53, 53);
+    color: black;
     transition: all 0.4s ease;
 }
 
 .performance:hover{
-    color: rgb(249, 247, 201, 0.7);
-    background-color: rgb(22, 53, 53);
+    color: rgb(249, 247, 201);
+    background-color: black;
     padding: 20px;
 }
 .fragnance:hover{
-    color: rgb(249, 247, 201, 0.7);
-    background-color: rgb(22, 53, 53);
+    color: rgb(249, 247, 201);
+    background-color: black;
     padding: 20px;
 }
 .variant:hover{
-    color: rgb(249, 247, 201, 0.7);
-    background-color: rgb(22, 53, 53);
+    color: rgb(249, 247, 201);
+    background-color: black;
     padding: 20px;
 }
 .size:hover{
-    color: rgb(249, 247, 201, 0.7);
-    background-color: rgb(22, 53, 53);
+    color: rgb(249, 247, 201);
+    background-color: black;
     padding: 20px;
 }
 .wiping:hover{
-    color: rgb(249, 247, 201, 0.7);
-    background-color: rgb(22, 53, 53);
+    color: rgb(249, 247, 201);
+    background-color: black;
     padding: 20px;
 }
 .feel:hover{
-    color: rgb(249, 247, 201, 0.7);
-    background-color: rgb(22, 53, 53);
+    color: rgb(249, 247, 201);
+    background-color: black;
     padding: 20px;
 }
 .satisfaction:hover{
-    color: rgb(249, 247, 201, 0.7);
-    background-color: rgb(22, 53, 53);
+    color: rgb(249, 247, 201);
+    background-color: black;
     padding: 20px;
 }
 .test:hover{
-    color: rgb(249, 247, 201, 0.7);
-    background-color: rgb(22, 53, 53);
+    color: rgb(249, 247, 201);
+    background-color: black;
     padding: 20px;
 }
 .improve:hover{
-    color: rgb(249, 247, 201, 0.7);
-    background-color: rgb(22, 53, 53);
+    color: rgb(249, 247, 201);
+    background-color: black;
     padding: 20px;
 }
 
@@ -418,13 +416,12 @@ input {
   }
 
   .btn2{
-    background-color: #c2fbd7;
+    background-color: rgb(249, 247, 201);
     border-radius: 100px;
-    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
-    color: green;
+    color: black;
     cursor: pointer;
     display: inline-block;
-    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding: 7px 40px;
     text-align: center;
     text-decoration: none;
@@ -438,7 +435,6 @@ input {
   }
   
   .btn2:hover {
-    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
     transform: scale(1.05) rotate(-1deg);
   }
 
@@ -448,7 +444,7 @@ input {
     }
     .navbar img{
         width: 39px;
-        margin-left: 3px;
+        margin-left: 158px;
     }
     .name{
         font-size: 14px;
@@ -465,8 +461,11 @@ input {
         margin: 0;
     }
     .handles{
-        padding: 0;
+        padding: 10px;
         margin: 0px 12px;
+    }
+    .handles img{
+        padding: 5px;
     }
     .expand{
         width: 10px;
