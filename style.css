@@ -27,10 +27,25 @@ body{
     background-color: rgb(181, 192, 208);
 }
 
+.vdo video{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1; /* To place it behind other content */
+}
+
+.main {
+    position: relative;
+    z-index: 1; /* To place it in front of the video */
+}
+
 .navbar{
     height: 12vh;
     width: 100vw;
-    background-color: rgb(0, 129, 112);
+    background-color: rgb(0, 129, 112,0.8);
 }
 
 .navbar img{
@@ -224,7 +239,7 @@ body{
     align-items: center;
     width: 50vw;
     padding: 10px;
-    background-color: rgb(249, 247, 201, 0.7);
+    background-color: rgb(249, 247, 201, 0.5);
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     margin-bottom: 15px;
