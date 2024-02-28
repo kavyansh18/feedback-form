@@ -118,7 +118,7 @@
           </select>
         </div>
         <div class="test">
-          <div class="hf">Can you povide a video testimonial?
+          <div class="hf">Can you provide a video testimonial?
             Genuine Feedback only</div>
           <!-- Create a select dropdown -->
           <select name="test" required>
@@ -139,13 +139,13 @@
               <div class="hf">Please share your contact information</div>
               <div class="container">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" autocomplete="name" required>
+                <input type="text" id="name" name="name" autocomplete="off" required>
 
                 <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+                <input type="text" id="phone" name="phone" autocomplete="off" required>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" autocomplete="email" required>
+                <input type="text" id="email" name="email" autocomplete="off" required>
               </div>
             </div>
           </div>
@@ -159,11 +159,18 @@
       const scriptURL =
         "https://script.google.com/macros/s/AKfycbyJ-h4WUKhhzyQPq1V6tIv7VsxdgwiJVrZR6lnww8Xbm32B8m8HlT5RMiqHfjsqo5hr/exec";
       const form = document.forms["submit-to-google-sheet"];
-
+      const submitButton = form.querySelector('button[type="submit"]');
+    
       form.addEventListener("submit", (e) => {
         e.preventDefault();
+        // Change button text to "Submitting..."
+        submitButton.textContent = "Submitting...";
+        
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
           .then((response) => {
+            // Reset button text to "Submit Form" after submission is completed
+            submitButton.textContent = "Submit Form";
+            
             // Check if the response was successful
             if (response.ok) {
               // Redirect to another HTML webpage
@@ -173,8 +180,14 @@
               console.error("Error!", response.statusText);
             }
           })
-          .catch((error) => console.error("Error!", error.message));
+          .catch((error) => {
+            // Reset button text to "Submit Form" in case of error
+            submitButton.textContent = "Submit Form";
+            console.error("Error!", error.message);
+          });
       });
+    </script>
+    
 
     </script>
 </body>
