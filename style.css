@@ -27,7 +27,7 @@ body{
     background-color: rgb(181, 192, 208);
 }
 
-.vdo video{
+.vdo img{
     position: fixed;
     width: 100%;
     height: 100%;
